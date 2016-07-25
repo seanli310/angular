@@ -5,6 +5,8 @@ machine:
 dependencies:
   pre:
     - npm install -g npm
+  override:
+    - npm install
 
 test:
   override:
